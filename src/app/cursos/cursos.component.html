@@ -1,6 +1,9 @@
 <p>
     Lista de Cursos
   </p>
+  <p>
+     Pagina: {{pagina}}
+  </p>
   <p>Página: </p>
   <div class="collection">
     <a class="collection-item"
@@ -9,3 +12,4 @@
     {{ curso.nome }}
     </a>
   </div>
+  <button (click)="proximaPagina()">Proxima Pagina</button>
